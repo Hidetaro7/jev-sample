@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --env-file=.env index.js",
-    "web": "node --env-file=.env server.js"
+    "web": "node --env-file=.env server.js",
+    "live": "node --env-file=.env live.js"
   },
   "keywords": [],
   "author": "",
